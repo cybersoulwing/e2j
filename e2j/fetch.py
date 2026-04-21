@@ -3,7 +3,7 @@ import csv
 import os
 import io
 
-URL = "https://docs.google.com/spreadsheets/d/12nFNXHe6FjRXwn-ZLBSI8hjepkkFq47jYLycwdAp9V8/export?format=csv&gid=0"
+URL = "https://docs.google.com/spreadsheets/d/XXXXXXXXXX/export?format=csv&gid=0"
 
 
 def fetch_sheet():

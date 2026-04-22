@@ -203,7 +203,7 @@ ashita.events.register('text_in', 'e2j_cb', function (e)
     if res then
         e.message_modified = utf8_to_sjis(res)
     else
-        -- log_unknown(clean_log(msg))
+        log_unknown(clean_log(msg))
     end
 
 end)
@@ -211,6 +211,6 @@ end)
 -------------------------------------------------
 -- ■ 初期化
 -------------------------------------------------
---run_python()
+run_python()
 load_dict()
 print('[E2J] ready (sorted)')
